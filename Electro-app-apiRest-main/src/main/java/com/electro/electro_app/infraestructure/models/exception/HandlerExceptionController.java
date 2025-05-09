@@ -1,4 +1,4 @@
-package com.electro.electro_app.infraestructure.Controllers;
+package com.electro.electro_app.infraestructure.models.exception;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.resource.NoResourceFoundException;
 
 import com.electro.electro_app.infraestructure.models.ErrorCustom;
-import com.electro.electro_app.infraestructure.models.exception.EntityNotFoundException;
 
 @RestControllerAdvice
 public class HandlerExceptionController {
